@@ -205,9 +205,9 @@ def main():
     args = parser.parse_args()
 
     # Define directory paths
-    INPUT_DIR = pathlib.Path('outputs/train/text')
-    OUTPUT_DIR = pathlib.Path('outputs/train/summary_ai')
-    FILES_TO_PROCESS_LIMIT = 19
+    INPUT_DIR = pathlib.Path('outputs/test_features/text')
+    OUTPUT_DIR = pathlib.Path('outputs/test_features/summary_ai')
+    FILES_TO_PROCESS_LIMIT = 100
 
     # Determine the starting file number
     start_number = args.start_from
